@@ -6,7 +6,7 @@ export function formatNumber(num: number): string {
     }
 
     const output: string[] = [];
-    const isNegative = num < 0; // check if negetive
+    const isNegative = num < 0; // check if negetive 
     num = Math.abs(num); // stores absolute value
 
     let i = 0;
